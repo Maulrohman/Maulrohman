@@ -1,0 +1,257 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0pt;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family: cursive;
+    color: #6C808C;
+}
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    background: #ffffff;
+    border-bottom: 1px solid #026E81;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 50px;
+    margin: auto;
+    display:flex;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6C808C;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #6C808C;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+a.tbl-biru {
+    background: #0099DD;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #A1C7E0;
+    text-decoration: none;
+}
+
+a.tbl-hijau {
+    background: #00ABBD;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hijau:hover {
+    background:#026E81 ;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    ;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.progres {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progres1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.progres1 img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.progres1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #6C808C;
+}
+
+.list-review {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.kartu-review {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kartu-review img {
+    width: 150px;
+}
+
+#contact {
+    background: #026E81;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: azure;
+    width: 100%;
+    height: 50px;
+}
+
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+p2 {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display:block;
+        width: 100%;
+        height: auto;
+    }
+}
